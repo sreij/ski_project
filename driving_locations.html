@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>運転練習先一覧</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="page-body">
+    <nav class="nav-links" aria-label="サイトナビゲーション">
+      <a href="index.html" class="nav-item">スキー場</a>
+      <a href="driving_locations.html" class="nav-item active" aria-current="page">運転練習先</a>
+      <a href="vehicle_lineup.html" class="nav-item">車種一覧</a>
+    </nav>
+
+    <main class="container">
+      <section class="hero">
+        <span class="eyebrow">運転スキルアップ</span>
+        <h1>これぞ！実践的な運転練習スポット</h1>
+        <p class="lead">初心者から上級者まで楽しめる多様なコースをまとめました。</p>
+      </section>
+
+      <section class="grid" aria-label="練習場所一覧">
+        <!-- 海ほたるPA -->
+        <article
+          class="card"
+          tabindex="0"
+          data-name="海ほたるPA"
+          data-tag="首都圏・海沿い"
+          data-summary="東京湾を走る絶景スポット。車線変更や速度維持など、実走での慣れに最適です。"
+          data-season="年間を通して推奨"
+          data-audience="向いている人：都心に近い場所で実走経験を積みたい人"
+          data-map="海ほたるPA"
+          data-url="https://www.tokyo-wan.com/"
+        >
+          <img class="photo" src="images/umihotaru.webp" alt="海ほたるPAと東京湾の風景" />
+          <div class="content">
+            <span class="tag">首都圏・海沿い</span>
+            <h2>海ほたるPA</h2>
+            <p>湾岸道路を走る絶景ポイント。実走での速度維持や車線変更の練習に最適です。</p>
+          </div>
+        </article>
+
+        <!-- 箱根 -->
+        <article
+          class="card"
+          tabindex="0"
+          data-name="箱根"
+          data-tag="箱根エリア"
+          data-summary="観光地として有名ですが、カーブや坂道、交通量の変化など、多様な運転シチュエーションを経験できます。"
+          data-season="年間を通して推奨"
+          data-audience="向いている人：様々な勾配やカーブに対応したい人"
+          data-map="箱根"
+          data-url="https://www.hakone.co.jp/"
+        >
+          <img class="photo" src="images/hakone.jpg" alt="箱根の風景" />
+          <div class="content">
+            <span class="tag">箱根エリア</span>
+            <h2>箱根</h2>
+            <p>観光地ならではのカーブや坂道が多く、運転技術の向上に非常に役立つ場所です。</p>
+          </div>
+        </article>
+
+        <!-- 江の島 -->
+        <article
+          class="card"
+          tabindex="0"
+          data-name="江の島"
+          data-tag="神奈川・海沿い"
+          data-summary="比較的短い距離で、海沿いの道や人通りの少ない区間を走り、運転に慣れるのに適しています。"
+          data-season="年間を通して推奨"
+          data-audience="向いている人：気軽に海沿いの運転を試したい人"
+          data-map="江の島"
+          data-url="https://www.enoshima-island.jp/"
+        >
+          <img class="photo" src="images/enoshima.jpg" alt="江の島の風景" />
+          <div class="content">
+            <span class="tag">神奈川・海沿い</span>
+            <h2>江の島</h2>
+            <p>海沿いをドライブでき、混雑状況を見ながら落ち着いた練習が可能です。</p>
+          </div>
+        </article>
+
+        <!-- 富士五湖周遊 -->
+        <article
+          class="card"
+          tabindex="0"
+          data-name="富士五湖周遊"
+          data-tag="関東・湖周遊"
+          data-summary="湖を巡る道は、直線的な運転から、湖岸のカーブ、交通量の変化まで、バランスの取れた練習ができます。"
+          data-season="年間を通して推奨"
+          data-audience="向いている人：長めのコースで全体の運転力を試したい人"
+          data-map="富士五湖周遊"
+          data-url="https://www.fujiko.com/"
+        >
+          <img class="photo" src="images/fujigoko.webp" alt="富士五湖と富士山の風景" />
+          <div class="content">
+            <span class="tag">関東・湖周遊</span>
+            <h2>富士五湖周遊</h2>
+            <p>美しい景色を楽しみながら、様々なコースでの走行練習ができます。</p>
+          </div>
+        </article>
+      </section>
+
+      <p class="footer-note">※ このページは運転練習先紹介のプレースホルダーです。</p>
+    </main>
+    <!-- モーダル部分は共通利用のため省略 -->
+  </body>
+</html>
